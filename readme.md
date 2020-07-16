@@ -10,3 +10,6 @@
 
 - 修改**最近一次** commit 描述信息
   `git commit --amend`
+
+- 修改**历史** commit 描述信息
+  `git rebase -i commit id`(这个 commit id 必须是修改对象的父节点以上)
